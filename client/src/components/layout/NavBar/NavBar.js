@@ -13,7 +13,7 @@ const NavBar = () => {
 			</Nav.Link>
 			<Nav>
 				<Nav.Link as={NavLink} to='/'>
-				<Button variant='light' className='text-primary'>Sign up</Button>
+				<Button variant='light' className='text-primary'>Register</Button>
 				</Nav.Link>
 				<Nav.Link as={NavLink} to='/'>
 				<Button variant='light' className='text-primary'>Login</Button>
