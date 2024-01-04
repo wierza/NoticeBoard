@@ -1,4 +1,4 @@
-const Ads = require('../models/ads.model.js');
+const Ads = require('../models/Ads.model.js');
 const getImageFileType = require('../utils/getImageFileType');
 const escape = require('../utils/espaceFunc');
 const fs = require('fs');
