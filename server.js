@@ -1,7 +1,7 @@
 // Imports
 const path = require('path');
 const cors = require('cors');
-const connectToDB = require('./db');
+const connectToDB = require('./db.js');
 const express = require('express');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
@@ -9,8 +9,8 @@ const mongoose = require('mongoose');
 const helmet = require('helmet');
 
 // import routes
-const adsRoutes = require('./routes/ads.routes');
-const authRoutes = require('./routes/auth.routes');
+const adsRoutes = require('./routes/ads.routes.js');
+const authRoutes = require('./routes/auth.routes.js');
 
 const app = express();
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }))
