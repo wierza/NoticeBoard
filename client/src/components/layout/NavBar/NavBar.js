@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Button from 'react-bootstrap/Button';
 import styles from './NavBar.module.scss'
 import { Nav, Navbar } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { getUser } from '../../../redux/usersRedux';
 
